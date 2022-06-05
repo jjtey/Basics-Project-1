@@ -36,7 +36,7 @@ var main = function (input) {
     inputLower
   )}, the program picked ${randomChoice} ${addEmoji(
     randomChoice
-  )}.<br><br>${choicesOutcome}<br><br> You've won ${gamesWon} out of ${gamesPlayed} turns so far!`;
+  )}.<br><br>${choicesOutcome}<br><br> You've won ${gamesWon} out of ${gamesPlayed} turn(s) so far!`;
   return myOutputValue;
 };
 
