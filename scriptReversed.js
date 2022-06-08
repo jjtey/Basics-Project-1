@@ -13,7 +13,7 @@ var main = function (input) {
       return gameInstructions;
     }
     userName = input;
-    var gameInstructions = `Hi ${userName}, welcome to Scissors Paper Stone! ✌️✋👊<br><br> To play, input "Scissors", "Paper" or "Stone" to test your luck!<br><br>Alternatively, input "Reversed Scissors", "Reversed Paper" or "Reversedgit  Stone" to try your hand at Reversed Scissors Paper Stone!<br><br>Good luck!`;
+    var gameInstructions = `Hi ${userName}, welcome to Scissors Paper Stone! ✌️✋👊<br><br> To play, input "Scissors", "Paper" or "Stone" to test your luck!<br><br>Alternatively, input "Reversed Scissors", "Reversed Paper" or "Reversed Stone" to try your hand at Reversed Scissors Paper Stone!<br><br>Good luck!`;
     return gameInstructions;
   }
   var inputLower = input.toLowerCase();
